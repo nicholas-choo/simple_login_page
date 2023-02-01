@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0.25turn,#8300cd, #b800c4);
+}
+
+.white-box {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    left: 0;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #f2f2f2;
+}
+
+.circle img {
+    height: 140px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    right: 0;
+}
+
+.right-inner-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.right-inner-container div {
+    margin-bottom: 1.5em;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+}
+
+input {
+    height: 35px;
+    width: 200px;
+    padding-left: 40px;
+    border: 0;
+    border-radius: 3em;
+    background-color: #e5e5e5;
+    color: #686868;
+}
+
+::placeholder {
+    color: #b5b5b8;
+}
+
+.login-button {
+    height: 35px;
+    width: 240px;
+    border: 0;
+    border-radius: 3em;
+    background-color: #1fcc44;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.link span {
+    color: #1fcc44;
+}
+
+.link:hover {
+    cursor: pointer;
+}
